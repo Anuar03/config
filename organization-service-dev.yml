@@ -3,5 +3,5 @@ example:
 spring:
   datasource:
     url: jdbc:postgresql://postgres:5432/ostock_dev
-    username: posrtgres
+    username: postgres
     password: postgres
