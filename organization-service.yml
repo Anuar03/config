@@ -1,7 +1,7 @@
 spring:
   jpa:
     hibernate:
-      ddl_auto: create-drop
+      ddl_auto: none
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
     database: POSTGRESQL
     show-sql: true
