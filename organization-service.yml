@@ -13,3 +13,12 @@ spring:
   datasource:
     testWhileIdle: true
     validationQuery: SELECT 1
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
