@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/ostock_dev
+    username: postgres
+    password: postgres
+
+example:
+  property: I AM THE DEFAULT
+
